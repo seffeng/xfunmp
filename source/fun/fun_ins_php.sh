@@ -17,7 +17,7 @@ function fun_ins_php(){
     fi
     ##依次命令
     php_shl=(
-        "apt-get -y install libxml2-dev curl libcurl4-openssl-dev libjpeg62-turbo-dev libpng12-dev libfreetype6-dev libevent-dev libmysqlclient-dev autoconf"
+        "apt-get -y install libxml2-dev curl libcurl4-openssl-dev libjpeg62-dev libpng12-dev libfreetype6-dev libevent-dev libmysqlclient-dev autoconf"
         "cd ${url_software_base}"
         "tar jxf ${php_pack_name}"
         "cd ${php_pack_folder}"
