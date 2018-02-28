@@ -61,7 +61,12 @@ then
 fi
 ```
 
-12、mysql密码：root 或 空。
+12、mysql密码：空 或 root。
+    请自行修改密码：
+```
+    ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
+    flush privileges;
+```
 
 13、php-fpm 停止、重载模版：
     /srv/websrv/config/php/stop.sh
